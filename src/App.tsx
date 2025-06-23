@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="container">
       <main>
-        <section className="about">
+        <aside className="about">
           <About />
-        </section>
+        </aside>
 
         <section className="work">
           <Projects />

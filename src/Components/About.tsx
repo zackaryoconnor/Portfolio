@@ -1,8 +1,20 @@
+import '../About.Module.css'
+
 function About() {
   return (
     <>
-      <h1>Zack O'Connor</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cumque quo reprehenderit modi, quibusdam eligendi! Provident, necessitatibus ab, voluptatibus nihil quos veniam quia nobis veritatis numquam itaque earum tempora amet! Totam, aperiam.</p>
+      <div className="hero">
+        {/* <img
+          className="profile-pic"
+          src="public/IMG_5627.jpeg"
+          alt="profile pic of me."
+        /> */}
+        <h1>Zack O'Connor</h1>
+      </div>
+      <p className="bio-text">
+        I'm currently a student at General Assembly studying Software
+        Engineering. I'm passionate about web and mobile development.
+      </p>
     </>
   )
 }

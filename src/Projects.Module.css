@@ -1,0 +1,50 @@
+img {
+  background-color: lightgray;
+  width: 100%;
+  border: 0.5px solid black;
+  border-radius: 4px;
+  object-fit: fill;
+  overflow: hidden;
+}
+
+.tags ul {
+  margin: 8px 0;
+  padding: 0;
+}
+
+.tags ul li {
+  background-color: tan;
+  padding: 2px 8px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+h3 {
+  margin-bottom: -8px;
+}
+
+a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  margin-right: 8px;
+  padding: 12px 36px;
+  border-radius: 100px;
+  cursor: pointer;
+  height: 36px;
+  width: 124px;
+}
+
+.live-site {
+  background-color: black;
+  color: white;
+}
+
+.github {
+  background-color: white;
+  border: 1px solid black;
+}

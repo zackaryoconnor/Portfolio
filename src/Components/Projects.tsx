@@ -1,23 +1,23 @@
 import '../Projects.Module.css'
 
 function Projects() {
-  const tagColors: Record<string, string> = {
+  // const tagColors: Record<string, string> = {
     // Typescript: 'red',
     // Javascript: 'blue',
     // React: 'green',
     // Tailwind: 'purple',
-  }
+  // }
 
-  const tagList = ['Typescript', 'Javascript', 'React', 'Tailwind']
+  // const tagList = ['Typescript', 'Javascript', 'React', 'Tailwind']
 
-  const renderTags = () =>
-    tagList.map((tag) => (
-      <li
-        key={tag}
-        style={{ backgroundColor: tagColors[tag] || 'black', color: 'white' }}>
-        {tag}
-      </li>
-    ))
+  // const renderTags = () =>
+  //   tagList.map((tag) => (
+  //     <li
+  //       key={tag}
+  //       style={{ backgroundColor: tagColors[tag] || 'black', color: 'white' }}>
+  //       {tag}
+  //     </li>
+  //   ))
 
   return (
     <div>

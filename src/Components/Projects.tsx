@@ -29,12 +29,7 @@ function Projects() {
         <div className="tags">{/* <ul>{renderTags()}</ul> */}</div>
         <h3>E-Commerce Site</h3>
         <p>
-          This is a modern, full-stack e-commerce platform designed to deliver a
-          complete online shopping experience. Built with React and TypeScript
-          on the frontend and Node.js with Express on the backend, it offers
-          secure user authentication, a dynamic product catalog, and efficient
-          order management. The user interface is cleanly styled with Tailwind
-          CSS for a responsive and intuitive design.
+          This is a modern, full-stack e-commerce platform offering a complete online shopping experience. It features secure user authentication, a dynamic product catalog, and efficient order management. Built with React and TypeScript for a responsive frontend, and Node.js with Express on the backend, the user interface is cleanly styled using Tailwind CSS for an intuitive design.
         </p>
         <div>
           <a
@@ -60,8 +55,7 @@ function Projects() {
         <div className="tags">{/* <ul>{renderTags()}</ul> */}</div>
         <h3>Movie Tracker</h3>
         <p>
-          A simple movies tracking application built with Node.js, Express, and
-          EJS for server-side rendering.
+          Developed a movie tracking application leveraging Node.js and Express for robust backend logic, and EJS for efficient server-side rendering. Users can effectively track and manage their movie watchlists.
         </p>
         <div>
           <a
@@ -87,8 +81,7 @@ function Projects() {
         <div className="tags">{/* <ul>{renderTags()}</ul> */}</div>
         <h3>Todo List</h3>
         <p>
-          A simple Todo List application built with Node.js, Express, and EJS
-          for server-side rendering.
+          Developed a Todo List application using Node.js and Express for robust backend logic, combined with EJS for efficient server-side rendering. Users can effectively manage their tasks in a straightforward interface.
         </p>
         <div>
           <a
@@ -114,10 +107,7 @@ function Projects() {
         <div className="tags">{/* <ul>{renderTags()}</ul> */}</div>
         <h3>Reading Tracker</h3>
         <p>
-          A collaborative full-stack project built during our General Assembly
-          Software Engineering bootcamp. This React application serves as the
-          frontend interface for our Reading Materials API, allowing users to
-          discover, save, and review their favorite reading materials.
+          A collaborative full-stack project developed during the General Assembly Software Engineering bootcamp. This application features a React frontend that interacts with our custom Reading Materials API, enabling users to discover, save, and review their favorite books and articles.
         </p>
         <div>
           <a

@@ -1,16 +1,16 @@
 {
   "name": "portfolio",
+  "homepage": "https://zackaryoconnor.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zackaryoconnor.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",

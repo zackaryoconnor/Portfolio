@@ -1,55 +1,48 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website showcasing my full-stack development projects and skills. Built with React, TypeScript, and Vite, and deployed on GitHub Pages.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[View Live Site](https://zackaryoconnor.github.io/Portfolio/)**
 
-## Expanding the ESLint configuration
+## 📋 About
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This portfolio website presents my journey as a Full-Stack Software Engineer, featuring projects developed during my time at General Assembly's immersive program. The site showcases a range of applications built with modern web technologies including React, Node.js, Python, and various databases.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Built With
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** - Frontend framework
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Build tool and development server
+- **CSS Modules** - Scoped styling
+- **GitHub Pages** - Deployment platform
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Featured Projects
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-# Portfolio
+### E-Commerce Platform
+- **Technologies:** React, Node.js, Express, MongoDB, Redux Toolkit
+- **Features:** User authentication, product management
+- **[Live Site](http://54.90.193.130:5173)** | **[GitHub](https://github.com/zackaryoconnor/ecommerce-site)**
+
+### Movie Tracker
+- **Technologies:** Node.js, Express, EJS
+- **Features:** Movie watchlist management, server-side rendering
+- **[Live Site](http://54.90.193.130:3001)** | **[GitHub](https://github.com/zackaryoconnor/My-Movies)**
+
+### Todo List Application
+- **Technologies:** Node.js, Express, EJS
+- **Features:** Task management, clean interface
+- **[Live Site](http://54.90.193.130:3000)** | **[GitHub](https://github.com/zackaryoconnor/Todo-List)**
+
+### Reading Tracker (ChapterList)
+- **Technologies:** React, Python, Django, PostgreSQL, AWS
+- **Features:** Full CRUD operations, user reviews, responsive design
+- **[Live Site](http://44.215.35.137:3004/)** | **[GitHub](https://github.com/zackaryoconnor/Reading-Tracker-Front-End)** 
+
+## Contact
+
+**Zackary O'Connor**
+- Email: zackary25@gmail.com
+- Portfolio: [zackaryoconnor.github.io/Portfolio](https://zackaryoconnor.github.io/Portfolio/)
+- LinkedIn: [Connect with me](https://linkedin.com/in/zackaryoconnor)

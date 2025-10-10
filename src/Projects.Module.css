@@ -1,11 +1,11 @@
 img {
-  background-color: lightgray;
   width: 100%;
-  border: 0.5px solid black;
   border-radius: 4px;
-  object-fit: fill;
+  object-fit: cover;
   overflow: hidden;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25); */
 }
+
 
 .tags ul {
   margin: 8px 0;

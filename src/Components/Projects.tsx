@@ -15,17 +15,16 @@ function Projects() {
   const [projects, setProjects] = useState<Project[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
- 
 
   const fetchProjects = async () => {
     try {
       setLoading(true)
-      const response = await fetch('http://127.0.0.1:5500/portfolio')
-      
+      const response = await fetch('http://54.90.193.130:3004/portfolio')
+
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`)
       }
-      
+
       const data = await response.json()
       setProjects(data.reverse())
       setError(null)
@@ -41,19 +40,20 @@ function Projects() {
     fetchProjects()
   }, [])
 
-  
   if (loading) {
     return <div>Loading projects...</div>
   }
-  
+
   if (error) {
     return <div>Error loading projects: {error}</div>
   }
-  
+
   return (
     <div>
       {projects.map((project) => (
-        <section key={project.id} className={project.id}>
+        <section
+          key={project.id}
+          className={project.id}>
           <img
             src={project.image}
             alt={project.altText}
